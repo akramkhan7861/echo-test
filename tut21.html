@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            border-radius: 23px;
+            margin: 33px auto;
+            background-color: rgb(239, 215, 183);
+
+
+        }
+
+        .items {
+            border: 2px solid green;
+            border-radius: 11px;
+            margin: 12px 12px;
+            padding: 12px 3px;
+            background: rgb(241, 220, 220);
+
+        }
+
+        #fruit {
+            float: right;
+            width: 49%;
+            padding: left;
+            text-align: center;
+        }
+
+        #computer {
+            /* float: left; */
+            width: 47%;
+            
+            text-align: center;
+            height: 280px;
+           
+        }
+
+        #Stationary {
+            /* float: left; */
+            width: 97%;
+            clear: both;
+            text-align: center;
+        }
+
+        p,
+        h3 {
+            text-align: right;
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+
+        .myheading {
+            /* background-color: rgb(40, 224, 117); */
+            color: rgb(242, 43, 166);
+            /* border: 3px solid green; */
+            height: 50px;
+            margin: 23px auto;
+            width: 455px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="myheading">Welcome to My Store</h1>
+        <div id="fruit" class="items">
+            <h3>fruits</h3>
+            <p id="fruitpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quam
+                corporis ipsum optio, inventore accusamus magnam numquam earum facilis aut nesciunt fugit officiis
+                repellat consequuntur deserunt veritatis eaque aperiam modi Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ratione a perspiciatis iste reprehenderit numquam quidem aperiam cum dignissimos
+                exercitationem suscipit modi quisquam, laudantium et quas at debitis deserunt architecto nihil deleniti
+                
+                aspernatur consequuntur iusto!</p>
+        </div>
+        <div id="computer" class="items">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quam
+                corporis ipsum optio, inventore accusamus magnam numquam earum facilis aut nesciunt fugit officiis
+                repellat consequuntur deserunt veritatis eaque aperiam modi Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ratione a perspiciatis iste reprehenderit numquam quidem aperiam cum dignissimos
+                exercitationem suscipit modi quisquam, laudantium et quas at debitis deserunt architecto nihil deleniti
+                aspernatur consequuntur iusto!</p>
+        </div>
+        <div id="Stationary" class="items">
+            <h3>Stationary</h3>
+            <p id="Stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quam
+                corporis ipsum optio, inventore accusamus magnam numquam earum facilis aut nesciunt fugit officiis
+                repellat consequuntur deserunt veritatis eaque aperiam modi.</p>
+        </div>
+        <div id="Glasses" class="items">
+            <h3>Glasses</h3>
+            <p id="Stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt quam
+                corporis ipsum optio, inventore accusamus magnam numquam earum facilis aut nesciunt fugit officiis
+                repellat consequuntur deserunt veritatis eaque aperiam modi.</p>
+        </div>
+    </div>
+</body>
+
+</html>

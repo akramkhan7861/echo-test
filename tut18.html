@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstPara{
+            color:blueviolet; /* Color by name */
+            background-color: yellowgreen;
+        }
+
+        #secondPara{
+            color: rgb(48, 226, 60); /* Color by rgb value */
+            background-color: #4515e6;
+        }
+
+        #thirdPara{
+            color: white;
+            background-color: #ff4532; /* Color by hex value */
+            font-size: 100px;
+            border-color: #15e631;
+        }
+        #h2id{
+            color: green;
+        }
+        body h2.h2class{
+            color: red !important;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="h2class" id="h2id">This is my first box</h2>
+    <p id="firstPara">This is a paragraph from first box</p>
+
+    <h2>This is my first box</h2>
+    <p id="secondPara">This is a paragraph from second box</p>
+
+    <h2>This is my first box</h2>
+    <p id="thirdPara">This is a paragraph from third box</p>
+</body>
+</html>
